@@ -11,7 +11,7 @@ Zombie = function(line, options) {
 	this.w = 50;
 	this.h = 90;
 
-	this.health = options['health'] || 100;
+	this.health = options['health'] || 300;
 	this.damage = options['damage'] || 40;
 
 	this.attackSpeed = options['attackSpeed'] || 3000;
